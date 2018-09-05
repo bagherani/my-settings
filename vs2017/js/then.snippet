@@ -1,0 +1,23 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>then</Title>
+    <Author>Microsoft Corporation</Author>
+    <Shortcut>then</Shortcut>
+    <Description>THEN</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+    </Declarations>
+    <Code Language="JavaScript"><![CDATA[then(function(res){
+	var result = res.data;
+	$end$
+}).catch(function(ex){
+	if(ex) pnNotify["error"](ex);
+}).finally(function(){
+})]]></Code>
+  </Snippet>
+</CodeSnippet>

@@ -1,0 +1,38 @@
+{
+    "omnisharp.autoStart": false,
+    "workbench.iconTheme": "vscode-icons",
+    "extensions.ignoreRecommendations": true,
+    "typescript.check.npmIsInstalled": false,
+    "files.defaultLanguage": "json",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "typescript.referencesCodeLens.enabled": true,
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#4878B3",
+        "editor.lineHighlightBackground": "#333",
+    },
+    "git.autofetch": true,
+    "workbench.list.openMode": "doubleClick",
+    "explorer.autoReveal": false,
+    "multiCommand.commands": [
+        {
+            "command": "focusInSidebar",
+            "interval": 1,
+            "sequence": [
+                "workbench.files.action.focusFilesExplorer",
+                "workbench.files.action.showActiveFileInExplorer"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.experimentalTextureCachingStrategy": "dynamic",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "zenMode.centerLayout": false,
+    "breadcrumbs.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "vsicons.projectDetection.disableDetect": true,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0
+}
