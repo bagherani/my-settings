@@ -10,6 +10,7 @@
     "workbench.colorCustomizations": {
         "tab.activeBackground": "#4878B3",
         "editor.lineHighlightBackground": "#333",
+        "statusBar.background": "#1f2f36"
     },
     "git.autofetch": true,
     "workbench.list.openMode": "doubleClick",
@@ -29,10 +30,14 @@
     "terminal.integrated.experimentalTextureCachingStrategy": "dynamic",
     "editor.smoothScrolling": true,
     "editor.minimap.enabled": false,
-    "zenMode.centerLayout": false,
-    "breadcrumbs.enabled": false,
+    "zenMode.centerLayout": true,
+    "breadcrumbs.enabled": true,
     "typescript.updateImportsOnFileMove.enabled": "never",
     "vsicons.projectDetection.disableDetect": true,
     "editor.mouseWheelZoom": true,
-    "window.zoomLevel": 0
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "workbench.activityBar.visible": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
 }
