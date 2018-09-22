@@ -96,5 +96,14 @@
     {
         "key": "ctrl+k z",
         "command": "-workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
     }
 ]

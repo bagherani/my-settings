@@ -18,11 +18,18 @@
 			"\t.subscribe((result) => {",
 			"\t\tif (!result.IsSuccess)",
 			"\t\t\tthrow result.Message;",
-			"\t\t\t$1",
+			"\t\t\t$0",
 			"\t}, (error) => {",
 			"\t}, () => {",
 			"\t});"
 		],
 		"description": "Log output to console"
+	},
+	"arrow": {
+		"prefix": "arrow",
+		"body": [
+			"() => {$0}"
+		],
+		"description": "New arrow function"
 	}
 }
