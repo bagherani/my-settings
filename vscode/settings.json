@@ -41,4 +41,6 @@
     "omnisharp.autoStart": false,
     "html.format.wrapAttributes": "aligned-multiple",
     "window.zoomLevel": 0,
+    "files.autoSave": "off",
+    "editor.suggest.localityBonus": true,
 }
