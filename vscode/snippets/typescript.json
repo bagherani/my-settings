@@ -31,5 +31,14 @@
 			"() => {$0}"
 		],
 		"description": "New arrow function"
+	},
+	"region": {
+		"prefix": "region",
+		"body": [
+			"// #region $1",
+			"$0",
+			"// #endregion $1",
+		],
+		"description": "open region comment"
 	}
 }
