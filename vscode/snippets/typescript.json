@@ -15,10 +15,13 @@
 	"subscribe": {
 		"prefix": "sub",
 		"body": [
+			"\t.pipe(finalize(()=>{ this.isLoading = false; }))",
 			"\t.subscribe((result) => {",
-			"\t\tif (!result.IsSuccess)",
-			"\t\t\tthrow result.Message;",
-			"\t\t\t$0",
+			"\t\tif (!result.IsSuccess) {",
+			"\t\t\tthis.notifyService.error(result.Message);",
+			"\t\t\treturn",
+			"\t\t}",
+			"\t\t$0",
 			"\t}, (error) => {",
 			"\t}, () => {",
 			"\t});"

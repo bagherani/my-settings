@@ -1,0 +1,71 @@
+[
+	{
+		"installDate": 1532748368110,
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"name": "trello",
+		"sections": [
+			{
+				"code": "/*\n*,.classic-body{\n    background-image:none !important;\n}*/\n\n@font-face\n  {\n    font-family: 'Roboto';\n    src: url('https://dl.dropboxusercontent.com/u/21799076/Roboto%20Font/Light/Roboto-Light-webfont.eot');\n    src: local('Roboto Light'), local('Roboto'), url('https://dl.dropboxusercontent.com/u/21799076/Roboto%20Font/Light/Roboto-Light-webfont.ttf') format('truetype');\n    font-weight: 300;\n    font-style: normal;\n  }\n@font-face\n  {\n    font-family: 'Roboto';\n    src: url('https://dl.dropboxusercontent.com/u/21799076/Roboto%20Font/Regular/Roboto-Regular-webfont.eot');\n    src: local('Roboto Regular'), local('Roboto'), url('https://dl.dropboxusercontent.com/u/21799076/Roboto%20Font/Regular/Roboto-Regular-webfont.ttf') format('truetype');\n    font-weight: 400;\n    font-style: normal;\n  }\n@font-face\n  {\n    font-family: 'Samim';\n    src: url('https://cdn.rawgit.com/rastikerdar/samim-font/v1.0.2/dist/Samim.eot');\n    src: local('Samim'), local('Samim'), url('https://cdn.rawgit.com/rastikerdar/samim-font/v1.0.2/dist/Samim.ttf') format('truetype');\n    font-style: normal;\n  }\n\n/* ========================================= */\n  body\n  {\n    font-family: Samim, Roboto,tahoma, \"Helvetica Neue\", Arial, Helvetica, sans-serif !important;\n    font-size: 12px;\n  }\n\n  body.body-board-view\n  {\n    background-color: rgba(0, 150, 210, 1.0)!important;\n  }\n\n  textarea\n  {\n    font-family: Samim, Roboto!important;\n    direction: rtl;\n  }\n\n  .board-menu\n  {\n    margin-top: 0!important;\n    position: fixed!important;\n    z-index: 60!important;\n  }\n\n  .list\n  {\n    border-radius: 10px!important;\n  }\n\n  .list-card-title\n  {\n    font-size: 13px;\n    line-height: 1.7em;\n  }\n\n  .list-card-operation, .expanded-list-card-operation\n  {\n    right: auto;\n    left: 3px;\n    padding: 2px;\n  }\n\n  .checklist-item-details-text\n  {\n    direction: rtl;\n  }\n\n  .card-label.mod-card-front\n  {\n    float: right;\n  }\n\n  .board-wrapper.is-show-menu .board-header-btns.mod-right\n  {\n    visibility: visible;\n    right: -303px;\n  }\n\n  .header-logo-default:after\n  {\n    content: \"Greenweb\";\n    color: white;\n    top: 21px;\n    position: absolute;\n  }\n\n\n  .checklist-item\n  {\n    padding-right: 26px!important;\n  }\n\n  .card-label.mod-card-front\n  {\n    text-align: center;\n    line-height: initial;\n    font-size: 8px;\n    height: 12px;\n  }\n\n  .comment-container p\n  {\n    direction: rtl;\n  }\n\n.checklist-item-checkbox {\n    right: auto !important;\n    left: 0 !important;\n}",
+				"domains": [
+					"trello.com"
+				]
+			}
+		],
+		"id": 1
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1542621025695,
+		"name": "friends",
+		"sections": [
+			{
+				"code": "*{\n    background:#fff !important;\n    color:#333 !important;\n}",
+				"domains": [
+					"livesinabox.com"
+				]
+			}
+		],
+		"id": 2
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1544606039350,
+		"name": "google-visited-link-gray",
+		"sections": [
+			{
+				"code": ".mblink:visited, a:visited{\n    color:#ac00ff;\n}",
+				"domains": [
+					"google.com"
+				]
+			}
+		],
+		"id": 3
+	},
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1545634031601,
+		"name": "change cursor for external links",
+		"sections": [
+			{
+				"code": "a[target=_blank]:hover{\n    cursor:alias;\n}"
+			}
+		],
+		"id": 4
+	}
+]

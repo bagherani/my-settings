@@ -7,8 +7,8 @@
     "workbench.startupEditor": "newUntitledFile",
     "typescript.referencesCodeLens.enabled": true,
     "workbench.colorCustomizations": {
-        "tab.activeBackground": "#000",
-        "editor.lineHighlightBackground": "#000",
+        "tab.activeBackground": "#677",
+        "editor.lineHighlightBackground": "#3467",
         "statusBar.background": "#1f2f36"
     },
     "git.autofetch": true,
@@ -43,6 +43,7 @@
     "editor.minimap.maxColumn": 60,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
-    "editor.smoothScrolling": true,
+    "editor.smoothScrolling": false,
     "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": true,
 }
